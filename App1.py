@@ -44,6 +44,16 @@ def main():
         from {opacity: 0; transform: translateY(25px);}
         to {opacity: 1; transform: translateY(0);}
     }
+    /* Glass Card */
+    .glass-card {
+        animation: fadeIn 1.3s ease;
+        background: rgba(255,255,255,0.07);
+        padding: 30px;
+        border-radius: 20px;
+        backdrop-filter: blur(8px);
+        border: 1px solid rgba(255,255,255,0.18);
+        box-shadow: 0 0 30px rgba(0,0,0,0.25);
+    }
 
    
 
