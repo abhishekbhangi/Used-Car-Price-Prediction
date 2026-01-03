@@ -39,7 +39,10 @@ def main():
         color: white;
     }
 
-    
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+        from {opacity: 0; transform: translateY(25px);}
+        to {opacity: 1; transform: translateY(0);}
     }
     /* Glass Card */
     .glass-card {
